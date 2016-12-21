@@ -1,4 +1,4 @@
-package shuo.laoma.collection.c35;
+package shuo.laoma.collection.c36;
 
 import java.util.Arrays;
 
@@ -44,12 +44,17 @@ public class DynamicArray<E> {
 		return oldValue;
 	}
 	
-	public <T extends E> void addAll(DynamicArray<T> c) {
+	public void addAll(DynamicArray<? extends E> c) {
 	    for(int i=0; i<c.size; i++){
 	        add(c.get(i));
 	    }
 	}
 	
+	public void copyTo(DynamicArray<? super E> dest){
+	    for(int i=0; i<size; i++){
+	        dest.add(get(i));
+	    }
+	}
 
 	/**
 	 * @param args

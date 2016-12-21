@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.9.4.jar" sourcepath="/Users/majunchang/.m2/repository/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

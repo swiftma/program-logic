@@ -1,4 +1,4 @@
-package shuo.laoma.collection.c35;
+package shuo.laoma.collection.c52;
 
 import java.util.Arrays;
 
@@ -44,12 +44,35 @@ public class DynamicArray<E> {
 		return oldValue;
 	}
 	
-	public <T extends E> void addAll(DynamicArray<T> c) {
+	public void addAll(DynamicArray<? extends E> c) {
 	    for(int i=0; i<c.size; i++){
 	        add(c.get(i));
 	    }
 	}
 	
+	public void copyTo(DynamicArray<? super E> dest){
+	    for(int i=0; i<size; i++){
+	        dest.add(get(i));
+	    }
+	}
+	
+    public E remove(int index) {
+        E oldValue = get(index);
+        int numMoved = size - index - 1;
+        if (numMoved > 0)
+            System.arraycopy(elementData, index + 1, elementData, index,
+                    numMoved);
+        elementData[--size] = null;
+        return oldValue;
+    }
+    
+    public void add(int index, E element) {
+        ensureCapacity(size + 1);  
+        System.arraycopy(elementData, index, elementData, index + 1,
+                         size - index);
+        elementData[index] = element;
+        size++;
+    }
 
 	/**
 	 * @param args
