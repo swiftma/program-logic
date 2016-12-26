@@ -3,5 +3,14 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/joda-time-2.9.4.jar" sourcepath="/Users/majunchang/.m2/repository/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/jackson-annotations-2.8.0.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/jackson-core-2.8.5.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/jackson-dataformat-msgpack-0.8.11.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/jackson-dataformat-xml-2.8.5.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/jackson-module-jaxb-annotations-2.8.5.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/msgpack-core-0.8.11.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="jackson_libs/woodstox-core-5.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
