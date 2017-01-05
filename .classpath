@@ -12,5 +12,15 @@
 	<classpathentry kind="lib" path="jackson_libs/msgpack-core-0.8.11.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/stax2-api-3.1.4.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/woodstox-core-5.0.3.jar"/>
+	<classpathentry kind="lib" path="csv_lib/commons-csv-1.4.jar"/>
+	<classpathentry kind="lib" path="excel_lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="excel_lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="excel_lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="excel_lib/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="excel_lib/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="excel_lib/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="excel_lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="excel_lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="html_lib/jsoup-1.10.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
