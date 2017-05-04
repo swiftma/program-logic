@@ -22,5 +22,6 @@
 	<classpathentry kind="lib" path="excel_lib/stax-api-1.0.1.jar"/>
 	<classpathentry kind="lib" path="excel_lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="html_lib/jsoup-1.10.2.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-3.2.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
