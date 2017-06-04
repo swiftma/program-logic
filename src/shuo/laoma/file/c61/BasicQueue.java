@@ -26,7 +26,7 @@ public class BasicQueue {
 	private MappedByteBuffer metaBuf;
 
 	public BasicQueue(String path, String queueName) throws IOException {
-		if (path.endsWith(File.separator)) {
+		if (!path.endsWith(File.separator)) {
 			path += File.separator;
 		}
 		RandomAccessFile dataFile = null;
