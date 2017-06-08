@@ -11,7 +11,7 @@
 * 泛型和容器类：shuo.laoma.collection
 * 文件：shuo.laoma.file
 * 并发：shuo.laoma.concurrent
-
+* 正则表达式：shuo.laoma.regex
 
 QQ交流群：574974775，备注"编程"
 
