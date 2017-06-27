@@ -12,6 +12,7 @@
 * 文件：shuo.laoma.file
 * 并发：shuo.laoma.concurrent
 * 正则表达式：shuo.laoma.regex
+* Java 8新特性：shuo.laoma.java8
 
 QQ交流群：574974775，备注"编程"
 
