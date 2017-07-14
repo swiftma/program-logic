@@ -68,7 +68,7 @@ public class RegUtils {
 	public static Pattern MOBILE_PHONE_PATTERN = Pattern.compile(
 			"(?<![0-9])" // 左边不能有数字
 			+ "((0|\\+86|0086)\\s?)?" // 0 +86 0086
-			+ "1[3|4|5|7|8|][0-9]-?[0-9]{4}-?[0-9]{4}" // 186-1234-5678
+			+ "1[34578][0-9]-?[0-9]{4}-?[0-9]{4}" // 186-1234-5678
 			+ "(?![0-9])"); // 右边不能有数字
 
 	public static Pattern ZIP_CODE_PATTERN = Pattern.compile(
@@ -88,6 +88,6 @@ public class RegUtils {
 	}
 
 	public static void main(String[] args) {
-		findZipCode("邮编 100013，电话18612345678");
+		
 	}
 }
