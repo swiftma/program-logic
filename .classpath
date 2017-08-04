@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/joda-time-2.9.4.jar" sourcepath="/Users/majunchang/.m2/repository/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_102]">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-3.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.9.4-sources.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.9.4.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/jackson-annotations-2.8.0.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/jackson-core-2.8.5.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/jackson-databind-2.8.5.jar"/>
@@ -12,7 +26,7 @@
 	<classpathentry kind="lib" path="jackson_libs/msgpack-core-0.8.11.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/stax2-api-3.1.4.jar"/>
 	<classpathentry kind="lib" path="jackson_libs/woodstox-core-5.0.3.jar"/>
-	<classpathentry kind="lib" path="csv_lib/commons-csv-1.4.jar"/>
+	<classpathentry kind="lib" path="html_lib/jsoup-1.10.2.jar"/>
 	<classpathentry kind="lib" path="excel_lib/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="excel_lib/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="excel_lib/curvesapi-1.04.jar"/>
@@ -21,7 +35,6 @@
 	<classpathentry kind="lib" path="excel_lib/poi-ooxml-schemas-3.15.jar"/>
 	<classpathentry kind="lib" path="excel_lib/stax-api-1.0.1.jar"/>
 	<classpathentry kind="lib" path="excel_lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="html_lib/jsoup-1.10.2.jar"/>
-	<classpathentry kind="lib" path="lib/cglib-nodep-3.2.5.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="csv_lib/commons-csv-1.4.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
 </classpath>
