@@ -9,15 +9,13 @@ public class CounterThread extends Thread {
 
     @Override
     public void run() {
-        try {
-            Thread.sleep((int) (Math.random() * 10));
-        } catch (InterruptedException e) {
-        }
-        counter.incr();
+    	for(int i= 0; i<1000; i++) {
+    		counter.incr();
+		}
     }
 
     public static void main(String[] args) throws InterruptedException {
-        int num = 100;
+        int num = 1000;
         Counter counter = new Counter();
         Thread[] threads = new Thread[num];
         for (int i = 0; i < num; i++) {
