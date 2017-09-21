@@ -16,13 +16,12 @@ public class EnhancedMap <K, V>{
             if(old!=null){
                 return old;
             }
-            map.put(key, value);
-            return null;	
+            return map.put(key, value);
     	}
      }
     
-    public void put(K key, V value){
-        map.put(key, value);
+    public V put(K key, V value){
+        return map.put(key, value);
     }
     
     //... 其他代码
