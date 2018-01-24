@@ -6,6 +6,7 @@ https://item.jd.com/12299018.html
 
 ![](./img/f640.jpg)
 
+书中完整代码导航：https://github.com/swiftma/program-logic/blob/master/the_logic_of_java_programming.md
 -------------------
 微信公众号"老马说编程"中的代码示例，所有示例代码基于JDK 8。
 
