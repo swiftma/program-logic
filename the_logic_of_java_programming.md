@@ -1,6 +1,6 @@
 ## 图书《Java编程的逻辑》完整代码
 
-书中代码为简略起见，部分代码不全，完整代码都在 https://github.com/swiftma/program-logic 上，以下是书中章节和完整代码链接的对应关系。如有谬误，请联系老马，微信: swiftma, qq: 2403740457, 邮件:swiftma@sina.com
+书中代码为简略起见，部分代码不全，完整代码都在 https://github.com/swiftma/program-logic 上，以下是书中章节和完整代码链接的对应关系。
 
 ### 第一部分 编程基础与二进制
 
